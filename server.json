@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/owid",
+  "title": "Owid",
+  "description": "OWID MCP — Our World in Data chart/indicator access (free, no auth)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/owid",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-owid",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/owid/mcp"
+    }
+  ]
+}
