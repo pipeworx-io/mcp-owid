@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/owid",
   "title": "Owid",
   "description": "OWID MCP — Our World in Data chart/indicator access (free, no auth)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/owid",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-owid",
