@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-owid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OWID MCP — Our World in Data chart/indicator access (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-97474a2103b40d56e43a12fae2a8223292ad41bbc5cf5465c579ddd54592c4b3",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-674dab60dcbf2ff6b07e69119d6e20543b94e4f24724649fb0a474f6fab0b0b9",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
