@@ -1041,6 +1041,14 @@ async function fetchIndicator(
     // else. The rows here are bare numbers with no unit/source/citation —
     // get_indicator_metadata is the one call that answers "what am I
     // actually looking at", using the same slug this response resolved.
+    //
+    // 14d re-measure (fleet #2325, 2026-10-07, same 30d-window methodology —
+    // SQL_REAL_EXTERNAL_CALL, blob6/blob1/blob2 grain, re-verified against
+    // the #2324 baseline numbers above to within noise): single-tool-only
+    // callers of fetch_indicator 57 -> 46 (total callers 65 -> 60), share
+    // 87.7% -> 76.7%, DOWN 11.0pt. Window still blends ~16d pre-hint traffic
+    // with the 14d post-hint period, and N is small — directional, not a
+    // verdict. Full 8-tool + catalog-wide comparison in the fleet #2325 close.
     next: {
       tool: 'get_indicator_metadata',
       args: { slug },
