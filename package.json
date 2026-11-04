@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-owid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "OWID MCP — Our World in Data chart/indicator access (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "owid",
     "gatewaySlug": "owid",
-    "sourceHash": "v1-4531101de9038a2b5fa27d3508a51296b00f84d94e03b70637ba3d59aaabd717",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-52261800cad826ac1922129dcac4398909935eab7ad3d464b0ffb0c38161df06",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
